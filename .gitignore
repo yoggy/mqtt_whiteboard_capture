@@ -1,0 +1,5 @@
+*.swp
+images
+*.jpg
+*.png
+config.yaml

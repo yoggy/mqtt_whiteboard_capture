@@ -1,0 +1,10 @@
+gmail_username:         gmail account......@gmail.com
+gmail_password:         password
+evernote_mail:          evernote email addres...@m.evernote.com
+evernote_notebook_name: note
+mqtt_host:              mqtt.example.com
+mqtt_port:              1883
+mqtt_username:          username
+mqtt_password:          password
+mqtt_topic:             subscribe topic
+capture_resolution:     640x480
