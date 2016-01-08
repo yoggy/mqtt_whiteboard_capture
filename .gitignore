@@ -1,5 +1,6 @@
 *.swp
 images
+log.txt*
 *.jpg
 *.png
 config.yaml

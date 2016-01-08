@@ -9,12 +9,14 @@ require 'mail'
 require 'yaml'
 require 'ostruct'
 
+$stdout.sync = true
+Dir.chdir(File.dirname($0))
+
 $conf = OpenStruct.new(YAML.load_file(File.dirname($0) + '/config.yaml'))
 
 $log = Logger.new(STDOUT)
 $log.level = Logger::DEBUG
 
-Dir.chdir(File.dirname($0))
 $image_dir = File.dirname($0) + './images/'
 FileUtils.mkdir_p($image_dir)
 
