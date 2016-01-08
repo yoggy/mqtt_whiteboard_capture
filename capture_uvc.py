@@ -4,8 +4,9 @@
 # capture_uvc.py - simple still image capture tool for UVC camera.
 #
 # Setup:
+#   $ sudo usermod -aG video username
 #   $ sudo apt-get install v4l-utils python-opencv python-dev
-#   $ wget https://.../capture_uvc.py
+#   $ wget https://raw.githubusercontent.com/yoggy/capture_uvc.py/master/capture_uvc.py
 #   $ chmod +x capture_uvc.py
 #
 # How to use:
@@ -45,3 +46,4 @@ for i in range(10):
 ret, img = cap.read()
 cv2.imwrite(filename, img)
 cap.release()
+
