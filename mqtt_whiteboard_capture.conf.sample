@@ -10,7 +10,7 @@
 ;     $ sudo supervisorctl reread
 ;     $ sudo supervisorctl add mqtt_whiteboard_capture
 ;     $ sudo supervisorctl status
-;     flashair2evernote                  RUNNING    pid 8192, uptime 0:00:30
+;     mqtt_whiteboard_capture                  RUNNING    pid 8192, uptime 0:00:30
 ;
 ; see also
 ;     Supervisor: A Process Control System
